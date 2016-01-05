@@ -2,14 +2,15 @@
 #include <string>
 #include <cassert>
 
-#include "ArrayList.h"
+#include "LinkedList.h"
 
 int main()
 {
-    ArrayList<std::string> list;
+    LinkedList<std::string> list;
 
     list.add("asd");
     list.add("qwe");
+    list.add("zxc");
 
     std::cout << "List size: " << list.size() << std::endl;
 
